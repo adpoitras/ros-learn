@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+preface/__init__.py
+preface.egg-info/PKG-INFO
+preface.egg-info/SOURCES.txt
+preface.egg-info/dependency_links.txt
+preface.egg-info/entry_points.txt
+preface.egg-info/requires.txt
+preface.egg-info/top_level.txt
+preface.egg-info/zip-safe
+resource/preface

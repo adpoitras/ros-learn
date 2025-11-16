@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating preface.egg-info
+writing preface.egg-info/PKG-INFO
+writing dependency_links to preface.egg-info/dependency_links.txt
+writing entry points to preface.egg-info/entry_points.txt
+writing requirements to preface.egg-info/requires.txt
+writing top-level names to preface.egg-info/top_level.txt
+writing manifest file 'preface.egg-info/SOURCES.txt'
+reading manifest file 'preface.egg-info/SOURCES.txt'
+writing manifest file 'preface.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ros_user/ros2_ws/src/install/preface/lib/python3.10/site-packages/preface.egg-link (link to .)
+
+Installed /home/ros_user/ros2_ws/src/build/preface
+running symlink_data
+creating /home/ros_user/ros2_ws/src/install/preface/share/ament_index
+creating /home/ros_user/ros2_ws/src/install/preface/share/ament_index/resource_index
+creating /home/ros_user/ros2_ws/src/install/preface/share/ament_index/resource_index/packages
+symbolically linking /home/ros_user/ros2_ws/src/build/preface/resource/preface -> /home/ros_user/ros2_ws/src/install/preface/share/ament_index/resource_index/packages
+symbolically linking /home/ros_user/ros2_ws/src/build/preface/package.xml -> /home/ros_user/ros2_ws/src/install/preface/share/preface

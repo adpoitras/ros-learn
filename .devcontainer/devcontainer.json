@@ -8,6 +8,7 @@
 	"onCreateCommand": "bash /home/ros_user/build_ws.sh || true",  // sources the ros2 workspaces (~/sim_ws, ~/ros2_ws)
 	"updateContentCommand": "sudo bash /home/ros_user/.vnc/startup.sh || true", // (vnc UI only) starts the vnc server
 	
+
 	// Set run arguments for the container //
 	"runArgs": [
 		// Mount the local workspace folder into the container //
@@ -34,7 +35,7 @@
 			// OSX Silicon Host //
 				// "--volume", "/tmp/.X11-unix:/tmp/.X11-unix:rw", // (OSX only) needed for X11 forwarding
 		"--rm",  // remove the container when it is stopped
-		"--name", "rclpy-from-zero-to-hero-iron"  // name the container
+		"--name", "rclpy-from-zero-to-hero-humble"  // name the container
 	],
 
 	// Set environment variables for the container //
