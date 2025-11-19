@@ -23,7 +23,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'first_node = ch1.first_node:main'
+            'first_node = ch1.first_node:main',
+            'first_publisher = ch1.first_publisher:main',
+            'first_subscriber = ch1.first_subscriber:main',
         ],
     },
 )
