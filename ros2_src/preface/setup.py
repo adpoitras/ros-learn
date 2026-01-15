@@ -24,6 +24,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'params = preface.params:main',
+            'params_ex = preface.params_ex:main',
         ],
     },
 )
