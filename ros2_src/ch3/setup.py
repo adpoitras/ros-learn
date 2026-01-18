@@ -23,6 +23,7 @@ setup(
             'diff_drive_odometry = ch3.diff_drive_odometry:main',
             'open_loop = ch3.open_loop:main',
             'closed_loop = ch3.closed_loop:main',
+            'closed_loop_pid = ch3.closed_loop_pid:main',
         ],
     },
 )
